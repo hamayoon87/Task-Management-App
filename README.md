@@ -70,3 +70,26 @@ task-manager-frontend/
 │   │   └── TaskList.js
 │   ├── App.js
 │   └── index.js
+
+
+Instructions to Run:
+    Backend:
+        Install dependencies:
+cd task-manager-backend
+npm install
+
+Add MongoDB URI in .env:
+
+MONGO_URI=your_mongodb_connection_string
+
+Start the backend server:
+npm start
+
+Frontend:
+
+    Install dependencies:
+cd task-manager-frontend
+npm install
+
+Start the React app:
+npm start
