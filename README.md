@@ -13,7 +13,7 @@ Project Overview:
         Mark tasks as complete/incomplete
         Delete tasks
 
-Steps to Create the Project:
+# Steps to Create the Project:
 1. Setup the Backend (Node.js with Express):
 
     Setup a new Node.js project with Express
@@ -34,8 +34,7 @@ Steps to Create the Project:
 
 Backend (Node.js/Express):
 
-    Backend Setup:
-        Create a new directory for your project and set up a Node.js environment:
+    Backend Setup: Create a new directory for your project and set up a Node.js environment:
     mkdir task-manager-backend
     cd task-manager-backend
     npm init -y
@@ -54,8 +53,7 @@ task-manager-backend/
 
 Frontend (React):
 
-    Frontend Setup:
-        Create a new React app:
+    Frontend Setup: Create a new React app:
     npx create-react-app task-manager-frontend
     cd task-manager-frontend
     npm install axios
@@ -72,25 +70,22 @@ task-manager-frontend/
 │   └── index.js
 
 
-Instructions to Run:
-    Backend:
+# Instructions to Run:
+
+# Backend:
     
         Install dependencies:
-cd task-manager-backend
-npm install
+        cd task-manager-backend
+        npm install
+        Add MongoDB URI in .env:
+        MONGO_URI=your_mongodb_connection_string
+        Start the backend server:
+        npm start
 
-Add MongoDB URI in .env:
-
-MONGO_URI=your_mongodb_connection_string
-
-Start the backend server:
-npm start
-
-Frontend:
+# Frontend:
 
     Install dependencies:
-cd task-manager-frontend
-npm install
-
-Start the React app:
-npm start
+    cd task-manager-frontend
+    npm install
+    Start the React app:
+    npm start
