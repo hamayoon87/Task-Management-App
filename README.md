@@ -31,7 +31,3 @@ Steps to Create the Project:
 
     Deploy the backend using services like Heroku/Render
     Deploy the frontend using Netlify or Vercel
-
-Example Code:
-
-I'll provide the backend and frontend code snippets below.
