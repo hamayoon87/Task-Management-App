@@ -31,3 +31,42 @@ Steps to Create the Project:
 
     Deploy the backend using services like Heroku/Render
     Deploy the frontend using Netlify or Vercel
+
+Backend (Node.js/Express):
+
+    Backend Setup:
+        Create a new directory for your project and set up a Node.js environment:
+    mkdir task-manager-backend
+    cd task-manager-backend
+    npm init -y
+    npm install express mongoose cors
+
+Backend File Structure:
+
+task-manager-backend/
+├── models/
+│   └── Task.js
+├── routes/
+│   └── tasks.js
+├── app.js
+├── .env
+└── package.json
+
+Frontend (React):
+
+    Frontend Setup:
+        Create a new React app:
+    npx create-react-app task-manager-frontend
+    cd task-manager-frontend
+    npm install axios
+
+Frontend File Structure:
+
+task-manager-frontend/
+├── src/
+│   ├── components/
+│   │   ├── TaskForm.js
+│   │   ├── TaskItem.js
+│   │   └── TaskList.js
+│   ├── App.js
+│   └── index.js
